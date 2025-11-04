@@ -1,8 +1,8 @@
 # 🎬 Testes Cinema App - Desafio Final Compass
-<p align="center">
   <a href="https://robotframework.org/">
     <img src="https://img.shields.io/badge/Robot%20Framework-grey?style=for-the-badge&logo=robotframework&logoColor=white" alt="Robot Framework"/>
   </a>
+  <p>
 Este diretório contém os testes (UI e API) para o projeto `cinema-challenge`.
 
 ## 🚧 Status do Projeto
