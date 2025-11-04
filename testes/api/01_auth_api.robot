@@ -13,7 +13,7 @@ ${BASE_URL}       http://localhost:3000/api/v1
 #   robot -d results testes/api/01_auth_api.robot
 
 *** Test Cases ***
-Registrar User Com Sucesso
+Register User Successfully
     [Documentation]    CT-AUTH-001.1 - Registrar usuário via API (caminho feliz)
     ${ts}=    Evaluate    str(int(time.time()*1000))    modules=time
     ${email}=    Set Variable    user_${ts}@example.com
@@ -27,7 +27,7 @@ Registrar User Com Sucesso
     Should Contain    ${resp_text}    ${email}
     Should Contain    ${resp_text}    token
 
-Login Com Credenciais Validas
+Login With Valid Credentials
     [Documentation]    CT-AUTH-002.1 - Login com credenciais válidas (API)
     ${ts}=    Evaluate    str(int(time.time()*1000))    modules=time
     ${email}=    Set Variable    login_user_${ts}@example.com
@@ -48,7 +48,7 @@ Login Com Credenciais Validas
     Should Contain    ${resp_text}    ${email}
     Should Contain    ${resp_text}    token
 
-Login Com Senha Incorreta
+Login With Wrong Password
     [Documentation]    CT-AUTH-002.3 - Tentar login com senha incorreta
     ${ts}=    Evaluate    str(int(time.time()*1000))    modules=time
     ${email}=    Set Variable    wrongpw_user_${ts}@example.com
