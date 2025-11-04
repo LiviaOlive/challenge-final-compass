@@ -1,10 +1,10 @@
 *** Settings ***
 Resource          ../resources/keywords.robot
-Library         RequestsLibrary
-Library         Collections
-Library         BuiltIn
+Library           RequestsLibrary
+Library           Collections
+Library           BuiltIn
 
-Suite Setup     Create Session    api    ${BASE_URL}
+Suite Setup       Create Session    api    ${BASE_URL}
 Suite Teardown    Delete All Sessions
 
 *** Test Cases ***
