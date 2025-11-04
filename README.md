@@ -2,13 +2,10 @@
   <a href="https://robotframework.org/">
     <img src="https://img.shields.io/badge/Robot%20Framework-grey?style=for-the-badge&logo=robotframework&logoColor=white" alt="Robot Framework"/>
   </a>
-  ![STATUS](https://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
-  <p>
-Este diretório contém os testes (UI e API) para o projeto `cinema-challenge`.
 
-## 🚧 Status do Projeto
 ![STATUS](https://img.shields.io/static/v1?label=STATUS&message=%20FINALIZADO&color=GREEN&style=for-the-badge)
-
+<p>
+Este diretório contém os testes (UI e API) para o projeto `cinema-challenge`.
 ## 👋 Apresentação Pessoal
 
 Olá! Eu sou **Ana Lívia**, tenho 20 anos e estou cursando o quinto semestre de Matemática Computacional. Este projeto foi desenvolvido como parte do desafio final do estágio na Compass UOL, onde apliquei conhecimentos de automação de testes usando Robot Framework para validar funcionalidades de UI e API. 
