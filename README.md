@@ -8,7 +8,7 @@
 Este diretório contém os testes (UI e API) para o projeto `cinema-challenge`.
 
 ## 👋 Apresentação Pessoal
-Olá! Eu sou **Ana Lívia**, no momento tenho 20 anos e estou cursando o quinto semestre de Matemática Computacional. Este projeto foi desenvolvido como parte do desafio final do estágio na Compass UOL, onde apliquei conhecimentos de automação de testes usando Robot Framework para validar funcionalidades de UI e API. 
+Olá! Eu sou **Ana Lívia**. Este projeto foi desenvolvido como parte do desafio final do estágio na Compass UOL, onde apliquei conhecimentos de automação de testes usando Robot Framework para validar funcionalidades de UI e API. 
 
 ## 📁 Estrutura de Pastas
 
